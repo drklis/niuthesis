@@ -1,0 +1,12 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Booth, Colomb, and Williams}{Booth et~al.}{2008}]{booth2008craft}
+Booth, W.~C., G.~G. Colomb, and J.~M. Williams (2008).
+\newblock {\em The Craft of Research\/} (3rd ed.).
+\newblock Chicago: University of Chicago Press.
+
+\bibitem[\protect\citeauthoryear{Winkler}{Winkler}{2015}]{winkler2015niuthesis}
+Winkler, R. (2015).
+\newblock \texttt{niuthesis}: {LaTeX} class for {NIU} theses.
+
+\end{thebibliography}
