@@ -57,7 +57,7 @@ The `example/` folder contains a fully working fake dissertation demonstrating t
 
 ### 1. Set Up Your Codespace
 
-1. Click the green **"Use this template"** button at the top of this page and create your own repository.
+1. Click the green **"Use this template"** button at the top of this page and create your own repository. *You may wish to make it private, so that your dissertation work isn't public until after your defense.*
 2. In your new repo, click **`<> Code`** → **`Codespaces`** → **`Create Codespace on Main`**.
 3. Wait about 2 minutes on the first launch while the LaTeX environment installs. After that, it opens in seconds.
 
@@ -79,7 +79,7 @@ Then fill in your abstract, acknowledgments, and (optionally) dedication in the 
 
 ### 3. Write Your Chapters
 
-Each chapter lives in its own `.tex` file. The repo includes a starter `Chapter1/ch1.tex` with instructions. To add more chapters:
+Best practice is for each chapter to live in its own `.tex` file.[^1] The repo includes a starter `Chapter1/ch1.tex` with instructions. To add more chapters:
 
 1. Create a new folder (e.g., `Chapter2/`) and add a file `ch2.tex` inside it.
 2. Add the chapter to both the `\def\files{...}` line and the `\include{...}` line in `diss.tex`:
@@ -170,3 +170,6 @@ Still getting started with Codespaces? Check out the following resources:
 - **niuthesis document class** by <a href="https://www.niu.edu/rwinkler/" target="_blank" rel="noreferrer noopener">Roland Winkler</a>, Northern Illinois University (GNU GPL v3)
 - **Additional extensions**: [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop), [Grammarly](https://github.com/znck/grammarly), [GitHub Copilot](https://github.com/features/copilot), [Live Share](https://visualstudio.microsoft.com/services/live-share/)
 - This README was drafted using Claude Sonnet 4.5 Extended and edited by [drklis](https://github.com/drklis)
+
+
+[^1]: You *could* typeset the whole dissertation in the main file, but then it becomes a large, unwieldy file that might take a long time to search through to fix one small thing. Having separate chapter files lets you work on those individually and potentially rearrange if needed.
