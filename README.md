@@ -12,7 +12,6 @@ If you've been using Overleaf, this setup gives you the same browser-based LaTeX
 | Git integration | ❌ | ✅ ($40/mo) | ✅ |
 | Collaborate with advisor | 1 person | ✅ | ✅ (Live Share) |
 | GitHub Copilot | ❌ | ❌ | ✅ |
-| Grammarly | ❌ | ❌ | ✅ |
 | Cost | Free | $40/mo | Free |
 
 ## What's in This Repo?
