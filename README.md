@@ -116,14 +116,15 @@ Appendices go after `\appendix` in `diss.tex`. Uncomment and add `\include{}` li
 
 ### 6. Compile Your PDF
 
-- Press **`Ctrl+S`** to save and compile. Your PDF will appear in the `PDF/` folder.
+- Press **`Ctrl+S`** or the green triange button to save and compile. Your PDF will appear in the `PDF/` folder.
 - Click the PDF file in the file explorer to preview it. **It may take 20–30 seconds the very first time.**
 - If you see "Error showing PDF," press `Ctrl+R` to reload.
 - Check the **Terminal → Output → Latex Compiler** panel for error messages if something doesn't compile.
+- Check the [WebLaTeXREADME](WebLaTeXREADME) for more guidance if you're having trouble compiling.
 
 ### 7. Save Your Work
 
-Commit and push your changes to GitHub regularly (version control). You can roll back to any previous state of your document at any time, which is especially useful when your advisor asks you to restore a section you deleted three months ago.
+Stage, commit, and push your changes to GitHub regularly (version control). You can roll back to any previous state of your document at any time, which is especially useful when your advisor asks you to restore a section you deleted three months ago.
 
 ## Tip: Working on One Chapter at a Time
 
@@ -156,11 +157,16 @@ New to LaTeX? These resources will get you up to speed:
 
 - <a href="https://www.overleaf.com/learn/latex/How_to_Write_a_Thesis_in_LaTeX_(Part_1)%3A_Basic_Structure" target="_blank" rel="noreferrer noopener">How to Write a Thesis in LaTeX — Overleaf</a>
 - <a href="https://www.overleaf.com/learn/latex/Free_online_introduction_to_LaTeX_(part_1)" target="_blank" rel="noreferrer noopener">Free Online Introduction to LaTeX — Overleaf</a>
+    - Adaptation of the Overleaf introduction for [ECON 691](https://github.com/ECON-691/Learning-LaTeX)
 - <a href="https://groups.tecnico.ulisboa.pt/~neiist.daemon/docs/latex_tutorial.pdf" target="_blank" rel="noreferrer noopener">LaTeX Tutorial (PDF) — Instituto Superior Técnico</a>
 - <a href="https://web.uri.edu/engineering/thesisguide/" target="_blank" rel="noreferrer noopener">LaTeX Thesis Guide — University of Rhode Island</a>
+
+Still getting started with Codespaces? Check out the following resources:
+- [ECON 691 Quickstart for Codespaces](https://github.com/ECON-691/quickstart-for-codespaces)
 
 ## Credits
 
 - **WebLaTeX** by <a href="https://github.com/sanjib-sen/weblatex" target="_blank" rel="noreferrer noopener">Sanjib Kumar Sen</a> — VS Code + GitHub Codespaces LaTeX environment
 - **niuthesis document class** by <a href="https://www.niu.edu/rwinkler/" target="_blank" rel="noreferrer noopener">Roland Winkler</a>, Northern Illinois University (GNU GPL v3)
 - **Additional extensions**: [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop), [Grammarly](https://github.com/znck/grammarly), [GitHub Copilot](https://github.com/features/copilot), [Live Share](https://visualstudio.microsoft.com/services/live-share/)
+- This README was drafted using Claude Sonnet 4.5 Extended and edited by [drklis](https://github.com/drklis)
