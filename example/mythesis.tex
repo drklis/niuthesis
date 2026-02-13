@@ -26,12 +26,12 @@
 % Choose the chapter(s) / files you want to work with
 
 %%% use this to compile all chapters
-%\def\files{ch1,ch2,refs,app1,app2}
+\def\files{Chapter1/ch1,Chapter2/ch2,refs,Chapter1/app1,Chapter2/app2}
 
 %%% use this to work with only one chapter
 % \def\files{ch2}
 
-%\includeonly{\files}
+\includeonly{\files}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
@@ -86,15 +86,15 @@
 \MakeThesisPrologue % includes table of contents
 % \tableofcontents
 
-%\include{ch1}		% file with Chapter 1 contents
-%\include{ch2}		% file with Chapter 2 contents
-%\include{refs}		% file with references
+\include{Chapter1/ch1}		% file with Chapter 1 contents
+\include{Chapter2/ch2}		% file with Chapter 2 contents
+\include{refs}		% file with references
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%  Appendices
 
 \appendix
-%\include{app1}			% file with Appendix A contents
-%\include{app2}			% file with Appendix B contents
+\include{Chapter1/app1}			% file with Appendix A contents
+\include{Chapter2/app2}			% file with Appendix B contents
 
 \end{document}
