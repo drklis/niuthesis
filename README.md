@@ -14,6 +14,8 @@ If you've been using Overleaf, this setup gives you the same browser-based LaTeX
 | GitHub Copilot | ❌ | ❌ | ✅ |
 | Cost | Free | $40/mo | Free |
 
+One practical limitation of free Overleaf worth knowing: it imposes much shorter compilation timeout on the free plan than the paid plan. Here is the [official plan limit guid](https://docs.overleaf.com/getting-started/free-and-premium-plans/plan-limits), though users often report free limits closer to 20 seconds, which a full dissertation will routinely exceed. Longer documents with many figures, tables, or equations can simply time out and fail to compile, pushing you toward a paid plan. NIU students, however, have access to <a href="https://education.github.com/" target="_blank" rel="noreferrer noopener">GitHub Education</a>, which provides free access to GitHub Codespaces and many of the tools built into this repo. If you haven't already, verify your student status at the GitHub Education portal to activate your benefits — then this setup costs you nothing.
+
 ## What's in This Repo?
 
 ```
