@@ -123,7 +123,7 @@ Appendices go after `\appendix` in `diss.tex`. Uncomment and add `\include{}` li
 
 ### 7. Save Your Work
 
-Commit and push your changes to GitHub regularly — this is your version control. You can roll back to any previous state of your document at any time, which is especially useful when your advisor asks you to restore a section you deleted three months ago.
+Commit and push your changes to GitHub regularly (version control). You can roll back to any previous state of your document at any time, which is especially useful when your advisor asks you to restore a section you deleted three months ago.
 
 ## Tip: Working on One Chapter at a Time
 
