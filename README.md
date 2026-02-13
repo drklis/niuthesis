@@ -144,7 +144,8 @@ Do the same with the `\include{}` lines below. Just remember to switch back befo
 The `niuthesis` class handles most formatting automatically (margins, spacing, title page, table of contents, etc.), but you should familiarize yourself with the official NIU Graduate School guidelines:
 
 - <a href="https://www.niu.edu/grad/thesis/index.shtml" target="_blank" rel="noreferrer noopener">NIU Graduate School: Thesis & Dissertation</a>
-- <a href="https://www.niu.edu/grad/_pdf/thesis/etd-guidelines-thesis.pdf" target="_blank" rel="noreferrer noopener">NIU ETD Guidelines (PDF)</a>
+- <a href="https://www.niu.edu/grad/_pdf/thesis/etd-guidelines-thesis.pdf" target="_blank" rel="noreferrer noopener">NIU Guidelines for Preparing a
+Thesis at NIU (PDF)</a>
 - <a href="https://www.niu.edu/grad/thesis/templates-examples.shtml" target="_blank" rel="noreferrer noopener">NIU Templates & Examples</a>
 - <a href="https://www.niu.edu/grad/thesis/documentation-styles.shtml" target="_blank" rel="noreferrer noopener">NIU Documentation Styles</a>
 - <a href="https://www.niu.edu/rwinkler/tex/niuthesis/index.htm" target="_blank" rel="noreferrer noopener">Roland Winkler's niuthesis documentation</a>
