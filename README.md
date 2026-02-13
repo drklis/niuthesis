@@ -25,25 +25,30 @@ niuthesis/
 ├── .devcontainer/        # WebLaTeX Codespace configuration
 ├── .vscode/              # Additional VSCode Codespace configuration
 ├── diss/                 # 📝 Your dissertation goes here
-│   ├── diss.tex          # Main file — start here
+│   ├── diss.tex          # Main file — start here ⬅️
 │   ├── niuthesis.cls     # NIU thesis document class (Winkler, 2015)
-│   ├── refs.bib          # Bibliography file (BibTeX format)
-│   └── Chapter1/
-│       └── ch1.tex       # Starter Chapter 1 with instructions
-│   └── PDF/              # Auto-generated on compile — **do not edit this folder or anything in it**
-│       └── diss.bbl          # Processed bibliography (BibTeX output)
-│       └── diss.pdf          # Your compiled dissertation
-│       └── diss.synctex.gz   # Source-to-PDF sync data (for editor navigation)
-│       └── Chapter1/        
-│          └── ch1.aux        # LaTeX auxiliary file for Chapter 1
+│   ├── refs.bib          # Bibliography file (BibTeX format) 📖
+│   ├── Chapter1/
+│   │   └── ch1.tex       # Starter Chapter 1 with instructions ⬅️
+│   └── PDF/              # Auto-generated on compile — **do not edit**
+│       ├── diss.bbl      # Processed bibliography (BibTeX output)
+│       ├── diss.pdf      # Your compiled dissertation 🙌
+│       ├── diss.synctex.gz  # Source-to-PDF sync data (for editor navigation)
+│       └── Chapter1/
+│           └── ch1.aux   # LaTeX auxiliary file for Chapter 1
 ├── example/              # Roland Winkler's example dissertation for reference
 │   ├── mythesis.tex      # Main file (shows document structure)
 │   ├── niuthesis.cls     # NIU thesis document class (Winkler, 2015)
 │   ├── Chapter1/         # ch1.tex, app1.tex
 │   ├── Chapter2/         # ch2.tex, app2.tex
 │   └── refs.tex          # Manual bibliography (for reference only)
-├── nondissdemo.tex       # Simple intro LaTeX demo
-└── WebLaTeXREADME.md     # Full WebLaTeX documentation
+├── nondissdemo.tex       # Simple LaTeX demo from WebLaTeX (not using the dissertation class)
+├── niuthesis.cls         # Root copy of NIU thesis document class (Winkler, 2015)
+├── WebLaTeXREADME.md     # Full WebLaTeX documentation (Sen)
+├── README.md             # You are here 🙋‍♀️
+├── LICENSE               # MIT License (for the niuthesis GitHub repo)
+├── LICENSE-WebLaTeX      # MIT License (for WebLaTeX, Sanjib Sen)
+└── LICENSE-niuthesis     # GNU GPL v3 (niuthesis class, Roland Winkler)
 ```
 
 The `example/` folder contains a fully working fake dissertation demonstrating tables, figures, equations, sideways tables/figures, appendices, and bibliography. **Look here when you get stuck** — it covers most of what you'll need. Note that the example uses a manual bibliography; your starter files in `diss/` use BibTeX instead, which is easier to manage for a full dissertation.
