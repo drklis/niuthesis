@@ -23,12 +23,19 @@ Additionally, because your dissertation lives in a GitHub repository, you could 
 ```
 niuthesis/
 ├── .devcontainer/        # WebLaTeX Codespace configuration
+├── .vscode/              # Additional VSCode Codespace configuration
 ├── diss/                 # 📝 Your dissertation goes here
 │   ├── diss.tex          # Main file — start here
 │   ├── niuthesis.cls     # NIU thesis document class (Winkler, 2015)
 │   ├── refs.bib          # Bibliography file (BibTeX format)
 │   └── Chapter1/
 │       └── ch1.tex       # Starter Chapter 1 with instructions
+│   └── PDF/
+│       └── diss.bbl       # Starter Chapter 1 with instructions
+│       └── diss.pdf      # Starter Chapter 1 with instructions
+│       └── diss.synctex.gz      # Starter Chapter 1 with instructions
+│       └── Chapter1/      # Starter Chapter 1 with instructions
+│          └── ch1.aux       # Starter Chapter 1 with instructions
 ├── example/              # Complete example dissertation for reference
 │   ├── mythesis.tex      # Main file (shows document structure)
 │   ├── niuthesis.cls
