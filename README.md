@@ -2,7 +2,7 @@
 
 This repository provides NIU graduate students with a free, GitHub-based alternative to Overleaf for writing their dissertation in LaTeX. It combines <a href="https://github.com/sanjib-sen/weblatex" target="_blank" rel="noreferrer noopener">Sanjib Sen's WebLaTex project</a> — which sets up a full LaTeX editing environment inside a GitHub Codespace using VS Code — with the `niuthesis` document class created by <a href="https://www.niu.edu/rwinkler/tex/niuthesis/index.htm" target="_blank" rel="noreferrer noopener">Roland Winkler</a>, which formats your document to meet NIU Graduate School requirements.
 
-If you've been using Overleaf, this setup gives you the same browser-based LaTeX editing experience, plus the full power of Git version control, GitHub Copilot, and Grammarly — for free.
+If you've been using Overleaf, this setup gives you the same browser-based LaTeX editing experience, plus the full power of Git version control, GitHub Copilot, and Grammarly for free.
 
 ## Why Use This Instead of Overleaf?
 
